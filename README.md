@@ -31,8 +31,6 @@ This website serves as my personal online presence and portfolio. Here, you can 
 
 3. **Contacting Me**: If you'd like to get in touch with me, you can use the contact form on the "Contact" page or reach out through the provided social media links.
 
-4. **Contributing**: If you find any issues with the website or want to contribute to its development, please refer to the [Contributing](#contributing) section below.
-
 ## Project Status
 
 ⚠️ **Please Note**: This website is still a work in progress. While some sections are complete and functional, others are under development. Here are some of the areas that are still incomplete or planned for future updates:
