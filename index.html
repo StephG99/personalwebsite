@@ -3,9 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stephen Gudijanto</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <div id="header">
+    <nav class="navbar">
+        <div class="logo">
+          <a href="#home"><img src="images/Slogo.png" alt="Your Logo"></a>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li><a href="#coursework">Courses</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+      <div class="header-text">
+        <p>HELLO</p>
+        <h1>I'm <span>Stephen</span></h1>
+        <p>An aspiring software engineer</p>
+      </div>
+    </div>
+  </div>
+  <!------------ About  ------------------>
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/pointing.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class ="sub-title">About Me</h1>
+                <p>Hi! I'm Stephen, a 3rd year student at Nanyan Technological University. With an unwavering curiosity for all things tech, I embrace the boundless possibilities of programming and problem-solving. Finding joy in crafting efficient software solutions and unraveling complex challenges, my journey has led me to explore various programming languages like [mention languages], and I'm always eager to expand my skillset. This portfolio is a snapshot of my growth as a computer scientist and a testament to my passion for creating innovative solutions.</p>
+                <p></p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                    <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>C/C++, Python, Java, Javascript,R, HTML/CSS, SQL</li>
+                        <li><span>Frameworks and Libraries</span><br>React.js, Flask</li>
+                        <li><span>Developer Tools</span><br>Git, Github,Node.js, MySQL</li>
+                    </ul>
+                </div>
+                <!-- <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-Current</span><br>UI/UX designer at xxx</li>
+                        <li><span>2019 - 2021</span><br>Team lead at xxx</li>
+                        <li><span>2016 - 2017</span><br>Software engineering intern at xyz company</li>
+                    </ul>
+                </div> -->
+                <div class="tab-contents" id="education">
+                  <div class="logo2"><img src="images/NTUlogo.jpg" alt=""></a></div>
+                    <ul>
+                        <li><span>2021-Present</span><br>Bachelors in Mathematical and computer Sciences</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------portfolio------------------ -->
+<div id="portfolio">
+  <div class="container">
+      <h1 class="sub-title">Personal Projects</h1>
+      <div class="work-list">
+          <div class="work">
+              <img src="images/cv.png" alt="">
+              <div class="description">
+                  <h3>Personal Portfolio Website</h3>
+                  <p>HTML, CSS, JavaScript</p>
+                  <p>Developed and designed a personal website using HTML, CSS, and JavaScript.</p>
+                  <a href="https://github.com/StephG99/personalwebsite">Link to Github</a>
+              </div>
+          </div>
+      </div>
+      <!-- <a href="#" class="btn">See More</a> -->
+  </div>
+</div>
+
+ <!-- Course Section -->
+ <!-- <section class="course-section">
+  <div class="container">
+    <h1 class="sub-title">Relevant Coursework</h1>
+      <div class="course-box">
+          <h3>Course Title 1</h3>
+          <p>Course Provider 1</p>
+      </div>
+      <div class="course-box">
+          <h3>Course Title 2</h3>
+          <p>Course Provider 2</p>
+      </div>
+      <div class="course-box">
+          <h3>Course Title 3</h3>
+          <p>Course Provider 3</p>
+      </div>
+  </div> -->
+  <!-- <a href="#" class="btn">See More</a> -->
+  
+</section>
+<!-- ------------------Contact------------------- -->
+<div id="contact">
+  <div class="container">
+      <div class="row">
+          <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p>Stephen.Gudijanto@gmail.com</p>
+              <!-- <p>01234567</p> -->
+              <div class="social-icons">
+                <!-- <a href="#home"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#home"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="#home"><img src="images/twitter.png" alt="Twiiter"></a> -->
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/stephen-gudijanto-2ab66a21a/"><img src="images/linkedin.png" alt="Linkedin"></a>
+                <a target="_blank" rel="noopener" href="https://github.com/StephG99"><img src="images/github.png" alt="Github"></a>
+              </div>
+              <a href="#downloadable file" download class="btn">Download CV</a>
+          </div>
+          <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn">Submit</button>
+              </form>
+              <span id="msg"></span>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxzBt329ugYwXNQWX09sYtn_Z3pTACfsXlA6EheD6_bC6w0x1O8nvfW1AQZad6SsA8k/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },99999)
+            form.reset()
+            })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </body>
 </html>
