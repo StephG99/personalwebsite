@@ -6,8 +6,6 @@ Welcome to my personal website! This README.md file provides an overview of my w
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Project Status](#project-status)
 
 ## Introduction
