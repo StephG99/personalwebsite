@@ -12,7 +12,6 @@ Welcome to my personal website! This README.md file provides an overview of my w
 
 This website serves as my personal online presence and portfolio. Here, you can learn more about me, explore my projects, and connect with me through various social media channels.
 
-![Screenshot of the website](screenshot.png)
 
 ## Features
 
@@ -23,7 +22,7 @@ This website serves as my personal online presence and portfolio. Here, you can 
 
 ## Usage
 
-1. **Accessing the Website**: You can access the website by visiting [xxx](xxx).
+1. **Accessing the Website**: You can access the website by visiting [https://github.com/StephG99/personalwebsite](https://github.com/StephG99/personalwebsite).
 
 2. **Exploring the Content**: Use the navigation menu at the top of the page to browse different sections of the website.
 
