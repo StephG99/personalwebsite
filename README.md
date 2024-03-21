@@ -22,7 +22,7 @@ This website serves as my personal online presence and portfolio. Here, you can 
 
 ## Usage
 
-1. **Accessing the Website**: You can access the website by visiting [https://github.com/StephG99/personalwebsite](https://github.com/StephG99/personalwebsite).
+1. **Accessing the Website**: You can access the website by visiting [https://stephg99.github.io/personalwebsite/](https://stephg99.github.io/personalwebsite/).
 
 2. **Exploring the Content**: Use the navigation menu at the top of the page to browse different sections of the website.
 
